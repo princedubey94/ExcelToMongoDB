@@ -1,0 +1,67 @@
+body {
+    margin: 20px 60px;
+  }
+  
+  .drop-container {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px dashed #555;
+    color: #444;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+  }
+  .lab{
+
+    background-color: indigo;
+  color: white;
+  padding: 0.5rem;
+  padding-right: 10px;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  span{
+    margin-left: 5px;
+    font-family: sans-serif;
+  }
+  }
+  #file-chosen{
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    font-family: sans-serif;
+    display:flex;
+  }
+  .choose{
+    
+    display: flex;
+    align-items: center;
+  }
+  .drop-container:hover,
+  .drop-container.drag-active {
+    background: #eee;
+    border-color: #111;
+  }
+  
+  .drop-container:hover .drop-title,
+  .drop-container.drag-active .drop-title {
+    color: #222;
+  }
+  
+  .drop-title {
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: color .2s ease-in-out;
+  }
+  
+  
